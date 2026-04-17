@@ -1,0 +1,41 @@
+Paradigmen der objektorientierten Programmierung
+Projektrichtlinien
+Bilden Sie selbststaendig Gruppen aus zwei Personen.
+
+
+Implementieren Sie fuer das Projekt ein beliebiges Programm, das von der Komplexit¨at her
+mit dem Oasencrawler Beispiel aus dem Kurs vergleichbar ist, objektorientiert aufgebaut ist
+und folgende Punkte erfuellt:
+
+- Erstellen Sie ein Klassendiagramm BEVOR Sie mit der Implementation beginnen, setzen Sie die Klassen in Beziehungen zueinander. Achten Sie bei der Programmierung
+auf die korrekte Implementation der Beziehungen.
+
+- Verwenden Sie mindestens f¨unf Klassen, die nicht nur reine Datencontainer sind (nur
+Attribute mit Gettern und Settern, ohne anderen komplexen Funktionen).
+
+- Alle Daten sollten korrekt gekapselt sein.
+
+- Zumindest eine Klasse soll eine STL-Containerklasse verwenden.
+
+- Es gibt zumindest eine polymorphe Sammlung von Objekten (entweder mit einem
+Pointer-Array dynamischer Gr¨oße oder einem STL-Container).
+
+- Es soll zumindest zwei getrennte Vererbungshierarchien geben, zumindest eine davon
+soll ein Interface als Elternklasse verwenden.
+
+- Implementieren Sie ein Software-Pattern.
+
+- Schreiben Sie ein Makefile f¨ur Ihr Projekt.
+
+- Erstellen Sie ein Klassendiagramm NACHDEM Sie die Implementation abgeschlossen haben.
+    Gibt es Unterschiede zum urspr¨unglichen Diagramm?
+
+Beurteilungskriterien
+Bei der Praesentation muessen Sie Ihren Code erklaeren koennen. Ist ersichtlich, dass ein
+Verstaendnis der verwendeten Konzepte fehlt oder es an Komplexitaet mangelt verlieren Sie
+Punkte.
+Verwenden Sie einen einheitlichen Programmierstil mit sinnvollen Variablennamen, ruecken
+Sie korrekt ein und versuchen Sie Ihren Code so gut als moeglich zu strukturieren.
+Die Benotung ergibt sich aus dem Gesamteindruck bei der Praesentation, es geht um ein
+selbststaendiges Arbeiten an und das Erklaeren einer Loesung, die in sich geschlossen ist, nicht
+um das abarbeiten einzelner Punkte die zusammen kein sinnvolles Ganzes ergeben.
