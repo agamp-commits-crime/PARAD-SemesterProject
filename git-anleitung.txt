@@ -8,6 +8,9 @@ spätestens wenn du aufhörst, 1x git add ., 1x git commit -m"" und 1x git push
 cd CLionProjects\ClownGame
 -> navigiert in den Ordner mit dem Projekt
 
+git pull
+-> holt änderungen vom Remote repo
+
 git status
 -> zeigt an welche files zu verändert hast
 
@@ -20,6 +23,5 @@ git commit -m"Hier die Commit Message"
 git push
 -> pushed auf das remote repo
 
-git pull
--> holt änderungen vom Remote repo
+
 

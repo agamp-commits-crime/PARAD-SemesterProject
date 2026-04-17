@@ -1,0 +1,111 @@
+
+classDiagram
+
+class Clown {
+    -int maxHP
+    -int currentHP
+    -int maxClownPower
+    -int currentClownPower
+    -array~Potion~ potions
+    -Power power
+    -string name
+    -int damage
+
+    +attack(Clown& target)*
+    +useClownPower(Power& power, Clown& enemy)*
+    +drinkPotion()
+
+    +getName() string
+    +getMaxHP() int
+    +getCurrentHP() int
+    +getMaxClownPower() int
+    +getCurrentClownPower() int
+    +getPotions() array~Potion~
+    +getPower() Power
+    +getDamage() int
+
+    +setName(string)
+    +setMaxHP(int)
+    +setCurrentHP(int)
+    +setMaxClownPower(int)
+    +setCurrentClownPower(int)
+    +setPotions(array~Potion~)
+    +setPower(Power)
+}
+
+class Clown1 {
+    +Clown1()
+    +attack(Clown& target)
+    +useClownPower(Power& power, Clown& enemy)
+}
+
+class Clown2 {
+    +Clown2()
+    +attack(Clown& target)
+    +useClownPower(Power& power, Clown& enemy)
+}
+
+class Clown3 {
+    +Clown3()
+    +attack(Clown& target)
+    +useClownPower(Power& power, Clown& enemy)
+}
+
+class Potion {
+    -string name
+    +applyEffect(Clown& target)$
+    +setName(string)
+    +getName() string
+}
+
+class HealthPotion {
+
+}
+
+class PowerPotion {
+
+}
+
+class Power {
+    -string name
+}
+
+class SquirtFlower  {
+
+}
+
+class Power2 {
+
+}
+
+class Game {
+    -GameUI ui
+    -unique_ptr~Clown~ playerClown
+
+    +start()
+    +choosePlayerClown()
+    +setPlayerClown(unique_ptr~Clown~)
+    +getPlayerClown() Clown
+}
+
+class GameUI {
+    +printGreeting()
+    +printFighterMenu()
+}
+
+Clown <|-- Clown1
+Clown <|-- Clown2
+Clown <|-- Clown3
+
+Potion <|-- HealthPotion
+Potion <|-- PowerPotion
+
+Power <|-- SquirtFlower
+Power <|-- Power2
+
+Clown --> Potion
+Clown --> Power
+Game --> Clown
+Game --> GameUI
+Potion --> Clown
+```

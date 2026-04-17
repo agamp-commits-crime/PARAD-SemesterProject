@@ -11,6 +11,9 @@
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="ClownGame" targetName="ClownGame" />
@@ -99,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776432817400</updated>
       <workItem from="1776432818898" duration="16592000" />
-      <workItem from="1776451544875" duration="73000" />
+      <workItem from="1776451544875" duration="758000" />
     </task>
     <servers />
   </component>
