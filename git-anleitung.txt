@@ -1,0 +1,21 @@
+in den Eingabeaufforderung in den Ordner navigieren
+
+git status
+-> zeigt an welche files zu verändert hast
+
+git add .
+-> fügt alle veränderten files zum Git hinzu
+
+git commit -m"Hier die Commit Message"
+-> commited die änderungen
+
+git push
+-> pushed auf das remote repo
+
+git pull
+-> holt änderungen vom Remote repo
+
+Wichtig:
+immer wenn du anfängst zu arbeiten:
+git pull
+spätestens wenn du aufhörst, 1x git add ., 1x git commit -m"" und 1x git push
