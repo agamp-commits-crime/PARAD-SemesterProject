@@ -1,4 +1,12 @@
-in den Eingabeaufforderung in den Ordner navigieren
+Wichtig:
+immer wenn du anfängst zu arbeiten:
+git pull
+spätestens wenn du aufhörst, 1x git add ., 1x git commit -m"" und 1x git push
+
+
+
+cd CLionProjects\ClownGame
+-> navigiert in den Ordner mit dem Projekt
 
 git status
 -> zeigt an welche files zu verändert hast
@@ -15,7 +23,3 @@ git push
 git pull
 -> holt änderungen vom Remote repo
 
-Wichtig:
-immer wenn du anfängst zu arbeiten:
-git pull
-spätestens wenn du aufhörst, 1x git add ., 1x git commit -m"" und 1x git push
