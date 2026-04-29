@@ -5,8 +5,8 @@
 #ifndef CLOWNGAME_CLOWN3_H
 #define CLOWNGAME_CLOWN3_H
 
-#include "Clown.h"
-#include "../../GameConfigurations.h"
+#include "../Clown.hpp"
+#include "../../../GameConfigurations.h"
 #include <iostream>
 
 class Clown3 : public Clown{

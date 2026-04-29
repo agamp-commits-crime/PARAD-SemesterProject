@@ -18,7 +18,7 @@ Attribute mit Gettern und Settern, ohne anderen komplexen Funktionen).
 - Zumindest eine Klasse soll eine STL-Containerklasse verwenden.
 
 - Es gibt zumindest eine polymorphe Sammlung von Objekten (entweder mit einem
-Pointer-Array dynamischer Gr¨oße oder einem STL-Container).
+Pointer-Array dynamischer Groeße oder einem STL-Container).
 
 - Es soll zumindest zwei getrennte Vererbungshierarchien geben, zumindest eine davon
 soll ein Interface als Elternklasse verwenden.

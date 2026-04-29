@@ -7,10 +7,10 @@
 #define CLOWNGAME_GAME_H
 
 #include "./ui/GameUi.h"
-#include "./models/clown/Clown.h"
-#include "./models/clown/Clown1.h"
-#include "models/clown/Clown2.h"
-#include "models/clown/Clown3.h"
+#include "./classes/clown/Clown.hpp"
+#include "./classes/clown/children/Clown1.h"
+#include "./classes/clown/children/Clown2.h"
+#include "./classes/clown/children/Clown3.h"
 #include "./GameConfigurations.h"
 #include <iostream>
 #include <limits>

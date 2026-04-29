@@ -4,8 +4,8 @@
 
 #ifndef CLOWNGAME_CLOWN1_H
 #define CLOWNGAME_CLOWN1_H
-#include "Clown.h"
-#include "../../GameConfigurations.h"
+#include "../Clown.hpp"
+#include "../../../GameConfigurations.h"
 #include <iostream>
 
 
